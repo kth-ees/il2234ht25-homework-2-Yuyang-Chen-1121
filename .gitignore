@@ -1,0 +1,42 @@
+# 忽略所有目录下的 ModelSim/Vivado 临时文件
+**/work/
+**/vsim.wlf
+**/transcript
+**/modelsim.ini
+
+# 忽略波形、日志、报告等文件
+**/*.wlf
+**/*.vcd
+**/*.log
+**/*.jou
+**/*.str
+**/*.pb
+
+# 忽略备份/编辑器临时文件
+*~
+*.bak
+*.swp
+*.swo
+
+# 忽略常见EDA工具输出目录
+**/sim/
+**/waves/
+**/out/
+**/build/
+**/.cache/
+
+# 忽略综合/实现生成的文件
+**/*.o
+**/*.so
+**/*.dll
+**/*.exe
+**/*.runs/
+**/*.data/
+**/*.ip_user_files/
+**/.Xil/
+**/*.db
+**/*.dcp
+
+# 允许源代码和脚本
+!**/*.sv
+!**/*.tcl
